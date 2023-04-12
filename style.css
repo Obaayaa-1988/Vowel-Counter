@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: deeppink;
+    background-color: deepskyblue;
     font-family: Poppins;
 }
 
@@ -50,7 +50,7 @@ button{
     outline: none;
     border-radius: 3px;
     color: white;
-    background-color: purple;
+    background-color: deeppink;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
