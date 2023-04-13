@@ -6,5 +6,7 @@ const result = document.querySelector(".result");
 btn.addEventListener("click", countVowels);
 
 function countVowels(){
-    
+    let vowelCount = 0;
+    let wordVal = word.value.toLowerCase();
+
 }
