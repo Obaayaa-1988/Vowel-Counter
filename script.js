@@ -8,5 +8,12 @@ btn.addEventListener("click", countVowels);
 function countVowels(){
     let vowelCount = 0;
     let wordVal = word.value.toLowerCase();
+    for(let i = 0; i < wordVal.length; i++){
+        let letter = wordVal[i];
+        if (letter.match (/([a,e,i,o,u])/)){
+            vowelCount++;
+        }
+        
+    }
 
 }
